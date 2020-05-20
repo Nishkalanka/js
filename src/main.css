@@ -1,0 +1,21 @@
+#gallery ul li {
+    /*position: absolute;*/
+    background: #fff;
+    transition: all ease 1s;
+    display: none;
+    text-align: center;
+    ;
+}
+
+
+#gallery {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+#gallery ul li:first-child {
+    display: block;
+}
