@@ -1,12 +1,18 @@
 #gallery ul li {
-    /*position: absolute;*/
+    position: absolute;
     background: #fff;
     transition: all ease 1s;
-    display: none;
     text-align: center;
-    ;
+    width: 50px;
+    height: 150px;
+    opacity: 0;
+    border: 1px solid #000;
+
 }
 
+#gallery ul li.active {
+    opacity: 1;
+}
 
 #gallery {
     text-align: center;
@@ -14,8 +20,4 @@
     width: 300px;
     margin: 0 auto;
 
-}
-
-#gallery ul li:first-child {
-    display: block;
 }
